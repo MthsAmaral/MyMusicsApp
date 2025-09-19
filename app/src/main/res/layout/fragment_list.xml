@@ -16,6 +16,9 @@
             android:layout_height="match_parent"
             android:divider="@color/purple200"
             android:dividerHeight="1dp"
+            android:radius="12dp"
             android:listSelector="@drawable/bg_selector_item"/>
+
     </LinearLayout>
+
 </FrameLayout>

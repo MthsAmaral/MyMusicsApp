@@ -6,9 +6,9 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 
 public class DBMySongs extends SQLiteOpenHelper {
-    private static final int VERSAO = 2;
+    private static final int VERSAO = 7;//mudar versão para resetar banco
     public DBMySongs(Context context) {
-        super(context, "mysongs.db", null, 2);
+        super(context, "mysongs.db", null, 7);
     }
 
     @Override

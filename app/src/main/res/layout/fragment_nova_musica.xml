@@ -22,12 +22,14 @@
                 android:id="@+id/tvTituloForm"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Cadastro de Música"
-                android:textSize="22sp"
-                android:textStyle="bold"
-                android:textColor="#1A237E"
+                android:layout_marginBottom="16dp"
                 android:fontFamily="sans-serif-medium"
-                android:layout_marginBottom="16dp" />
+                android:padding="5dp"
+                android:radius="12dp"
+                android:text="Cadastro de Música"
+                android:textColor="#1A237E"
+                android:textSize="22sp"
+                android:textStyle="bold" />
 
             <!-- Nome da Música -->
             <com.google.android.material.textfield.TextInputLayout
@@ -86,7 +88,8 @@
                     android:layout_height="wrap_content"
                     android:cursorVisible="false"
                     android:focusable="true"
-                    android:inputType="none" />
+                    android:inputType="none"
+                    android:padding="2dp" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <!-- Ano de Lançamento -->
