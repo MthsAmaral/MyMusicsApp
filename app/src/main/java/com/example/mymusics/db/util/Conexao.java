@@ -1,4 +1,4 @@
-package com.example.alodrawermenu.db.util;
+package com.example.mymusics.db.util;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
-import com.example.alodrawermenu.db.DBMySongs;
+import com.example.mymusics.db.DBMySongs;
 
 public class Conexao {
 

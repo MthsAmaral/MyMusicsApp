@@ -1,4 +1,4 @@
-package com.example.alodrawermenu.db;
+package com.example.mymusics.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

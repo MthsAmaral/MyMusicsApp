@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "AloDrawerMenu"
+rootProject.name = "MyMusics"
 include(":app")

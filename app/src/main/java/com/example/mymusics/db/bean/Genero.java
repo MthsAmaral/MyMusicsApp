@@ -1,4 +1,4 @@
-package com.example.alodrawermenu.db.bean;
+package com.example.mymusics.db.bean;
 
 public class Genero {
     private int id;

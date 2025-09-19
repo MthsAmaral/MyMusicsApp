@@ -1,4 +1,4 @@
-package com.example.alodrawermenu;
+package com.example.mymusics;
 
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -17,7 +17,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.example.alodrawermenu.db.bean.Musica;
+import com.example.mymusics.db.bean.Musica;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity {

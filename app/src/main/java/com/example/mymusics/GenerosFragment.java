@@ -1,4 +1,4 @@
-package com.example.alodrawermenu;
+package com.example.mymusics;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,8 +12,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.example.alodrawermenu.db.bean.Genero;
-import com.example.alodrawermenu.db.dal.GeneroDAL;
+import com.example.mymusics.db.bean.Genero;
+import com.example.mymusics.db.dal.GeneroDAL;
 
 import java.util.List;
 

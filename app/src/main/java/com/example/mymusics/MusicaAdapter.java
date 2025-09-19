@@ -1,4 +1,4 @@
-package com.example.alodrawermenu;
+package com.example.mymusics;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,7 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.example.alodrawermenu.db.bean.Musica;
+import com.example.mymusics.db.bean.Musica;
 
 import java.util.List;
 

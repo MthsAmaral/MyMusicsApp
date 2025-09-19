@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.alodrawermenu"
+    namespace = "com.example.mymusics"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.alodrawermenu"
+        applicationId = "com.example.mymusics"
         minSdk = 30
         targetSdk = 36
         versionCode = 1

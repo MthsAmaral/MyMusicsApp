@@ -10,7 +10,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#90CAF9"
+        android:background="@drawable/bg_item_musica"
         android:padding="12dp">
 
         <!-- ID -->

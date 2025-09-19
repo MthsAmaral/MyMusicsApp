@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment_nova_musica">
+    tools:context=".NovaMusicaFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -25,13 +25,21 @@
                 android:text="Cadastro de Música"
                 android:textSize="22sp"
                 android:textStyle="bold"
+                android:textColor="#1A237E"
+                android:fontFamily="sans-serif-medium"
                 android:layout_marginBottom="16dp" />
 
             <!-- Nome da Música -->
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Nome da Música">
+                android:hint="Nome da Música"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="#1A237E"
+                app:boxCornerRadiusTopStart="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                app:boxCornerRadiusBottomStart="12dp"
+                app:boxCornerRadiusBottomEnd="12dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/etNomeMusica"
@@ -44,7 +52,13 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Cantor">
+                android:hint="Cantor"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="#1A237E"
+                app:boxCornerRadiusTopStart="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                app:boxCornerRadiusBottomStart="12dp"
+                app:boxCornerRadiusBottomEnd="12dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/etCantor"
@@ -58,7 +72,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Gênero"
-                app:endIconMode="dropdown_menu">
+                app:endIconMode="dropdown_menu"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="#1A237E"
+                app:boxCornerRadiusTopStart="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                app:boxCornerRadiusBottomStart="12dp"
+                app:boxCornerRadiusBottomEnd="12dp">
 
                 <AutoCompleteTextView
                     android:id="@+id/etGenero"
@@ -73,7 +93,13 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Ano de Lançamento">
+                android:hint="Ano de Lançamento"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="#1A237E"
+                app:boxCornerRadiusTopStart="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                app:boxCornerRadiusBottomStart="12dp"
+                app:boxCornerRadiusBottomEnd="12dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/etAnoLancamento"
@@ -86,7 +112,13 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Duração (ex: 03:20)">
+                android:hint="Duração (ex: 03:20)"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="#1A237E"
+                app:boxCornerRadiusTopStart="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                app:boxCornerRadiusBottomStart="12dp"
+                app:boxCornerRadiusBottomEnd="12dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/etDuracao"

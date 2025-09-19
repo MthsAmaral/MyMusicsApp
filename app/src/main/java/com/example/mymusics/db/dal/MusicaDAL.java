@@ -1,4 +1,4 @@
-package com.example.alodrawermenu.db.dal;
+package com.example.mymusics.db.dal;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -6,8 +6,8 @@ import android.database.Cursor;
 import android.widget.Toast;
 
 
-import com.example.alodrawermenu.db.bean.Musica;
-import com.example.alodrawermenu.db.util.Conexao;
+import com.example.mymusics.db.bean.Musica;
+import com.example.mymusics.db.util.Conexao;
 
 import java.sql.ResultSet;
 import java.util.ArrayList;

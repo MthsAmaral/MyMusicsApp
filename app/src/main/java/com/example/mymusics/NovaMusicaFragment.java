@@ -1,4 +1,4 @@
-package com.example.alodrawermenu;
+package com.example.mymusics;
 
 import android.os.Bundle;
 
@@ -12,10 +12,10 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.example.alodrawermenu.db.bean.Genero;
-import com.example.alodrawermenu.db.bean.Musica;
-import com.example.alodrawermenu.db.dal.GeneroDAL;
-import com.example.alodrawermenu.db.dal.MusicaDAL;
+import com.example.mymusics.db.bean.Genero;
+import com.example.mymusics.db.bean.Musica;
+import com.example.mymusics.db.dal.GeneroDAL;
+import com.example.mymusics.db.dal.MusicaDAL;
 import com.google.android.material.textfield.TextInputEditText;
 
 import java.util.ArrayList;
